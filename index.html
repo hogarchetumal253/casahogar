@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en"
+<head> 
+      <title>Casa Hogar de Chetumal</title>
+      <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <header>
+        <div class="container"
+             <p class="logo">Hogar Chetumal</p>
+             <Nav>
+                  
+            </Nav>
+
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Casa Hogar <br>de Chetumal</h1>
+        <form action="https://youtu.be/L-CQh7xIhMU?si=l_TG9K7XJv0AR7gj">
+            <button>+info</button>
+        </form>
+
+        
+    </section>
+    <section id="introducion">
+      <div class="container">
+      <h2>Introducion</h2>
+      <p>Este proyecto se centra en conocer y analizar las condiciones, necesidades y percepciones en torno a la Casa Hogar de Chetumal, un espacio destinado a la atención de adolescentes en situación vulnerable. A través de una investigación digital, se busca identificar posibles áreas de mejora y proponer soluciones concretas.
+La Casa Hogar de Chetumal es una institución que brinda alojamiento, alimentación, atención educativa, emocional y médica a adolescentes. Su objetivo es ofrecer un entorno seguro y digno a quienes han sido víctimas de abandono, violencia o situaciones familiares complejas.
+</p>
+      </div
+     </section>
+<section id="acerca de">
+      <div class="container">
+      <h2>Hogar Chetumal</h2>
+      <div class="carta">
+            <h3>Informacion del equipo</h3>
+            <p>Este proyecto fue realizado por estudiantes comprometidos con el análisis social y el bienestar de su comunidad. Cada integrante participó en el diseño del formulario, el análisis de datos y la elaboración de propuestas.</p>
+      
+            <h3>Objetivos del proyecto</h3>
+<button onclick="mostrarObjetivos()">+info</button>
+
+<div id="infoObjetivos" style="display: none; margin-top: 10px;">
+  <p>El propósito principal de este proyecto es acercarnos a la realidad de la Casa Hogar de Chetumal desde la perspectiva de la propia comunidad. A través de este trabajo buscamos:</p>
+  <ul>
+    <li><strong>Conocer cómo perciben las personas a la Casa Hogar:</strong> entendiendo qué opinan sobre su funcionamiento, su impacto en la sociedad y su importancia para los menores que ahí viven. Escuchar estas voces nos permite comprender el valor social que se le atribuye a esta institución.</li>
+    <li><strong>Identificar tanto las necesidades como las fortalezas:</strong> reconocer qué aspectos funcionan bien y deben conservarse, pero también detectar qué áreas requieren atención o mejora. Esto se logra a través del análisis de datos obtenidos mediante encuestas y observación.</li>
+    <li><strong>Proponer mejoras reales y concretas basadas en información verificada:</strong> con el objetivo de contribuir a que la Casa Hogar sea un espacio más digno, funcional y emocionalmente positivo para los niños y adolescentes que la habitan.</li>
+  </ul>
+
+  <h4>Relación con la infografía previa</h4>
+  <p>Este proyecto se desarrolló a partir de una primera infografía que sirvió como punto de partida. En ella se brindaba una introducción general al contexto de la Casa Hogar, incluyendo información básica sobre su funcionamiento, su historia y su población beneficiaria.</p>
+
+  <p>A partir de ese primer acercamiento visual y general, el equipo de trabajo decidió profundizar en la temática a través de una investigación más detallada, utilizando herramientas como encuestas en línea, entrevistas y análisis de datos. La infografía nos permitió despertar el interés y sensibilizarnos respecto al tema; el proyecto de investigación nos llevó a un nivel más profundo de comprensión y compromiso social.</p>
+</div>
+
+<script>
+  function mostrarObjetivos() {
+    var info = document.getElementById("infoObjetivos");
+    if (info.style.display === "none") {
+      info.style.display = "block";
+    } else {
+      info.style.display = "none";
+    }
+  }
+</script>
+</p>
+      
+      </div>
+
+      <div class="carta">
+            <h3>Metodología</h3>
+            <p>Se empleó una metodología de investigación digital a través de un formulario de Google Forms, difundido a una muestra de estudiantes y personas cercanas a la comunidad.</p> 
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSdEVXPX99FkNmNtwiErSZFka6tMz6azFJ2dlRsAX4QXxRYzSA/viewform?usp=header">
+            <button>+info</button>
+        </form>
+            </div>
+      </div>
+</section>
+
+<section id="resultados">
+      <div class="container">
+            <h2>Hogar Chetumal</h2>
+            <div class="carta">
+                  <h3>Graficos y visualizaciones</h3>
+                  <p>Aquí se presentan las respuestas obtenidas de la encuesta en forma de gráficas de pastel de las preguntas más relevantes.</p>
+                  
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Resultados Casa Hogar de Chetumal</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background-color: #f5f5f5; }
+    canvas { max-width: 700px; margin: 30px auto; display: block; }
+    h2 { color: #333; text-align: center; }
+  </style>
+</head>
+<body>
+
+  <h2>Apoyo Necesario para Mejorar la Autonomía</h2>
+  <canvas id="graficaApoyo"></canvas>
+
+  <h2>Autonomía en Decisiones Diarias</h2>
+  <canvas id="graficaDecisiones"></canvas>
+
+  <h2>Mejoras Estructurales</h2>
+  <canvas id="graficaInfraestructura"></canvas>
+
+  <h2>Importancia de la Casa Hogar</h2>
+  <canvas id="graficaImportancia"></canvas>
+
+  <h2>Confianza en la Institución</h2>
+  <canvas id="graficaConfianza"></canvas>
+
+  <script>
+    // Gráfica 1: Apoyo necesario
+    new Chart(document.getElementById("graficaApoyo"), {
+      type: "pie",
+      data: {
+        labels: [
+          "Apoyo psicológico (32%)",
+          "Actividades recreativas (21%)",
+          "Formación educativa (19%)",
+          "Infraestructura (16%)",
+          "Apoyo económico (12%)"
+        ],
+        datasets: [{
+          data: [32, 21, 19, 16, 12],
+          backgroundColor: ["#4e79a7", "#f28e2b", "#e15759", "#76b7b2", "#59a14f"]
+        }]
+      }
+    });
+
+    // Gráfica 2: Decisiones diarias
+    new Chart(document.getElementById("graficaDecisiones"), {
+      type: "bar",
+      data: {
+        labels: ["Sí (43%)", "No (30%)", "Depende (27%)"],
+        datasets: [{
+          label: "Percepción sobre autonomía",
+          data: [43, 30, 27],
+          backgroundColor: ["#59a14f", "#e15759", "#edc948"]
+        }]
+      }
+    });
+
+    // Gráfica 3: Infraestructura
+    new Chart(document.getElementById("graficaInfraestructura"), {
+      type: "bar",
+      data: {
+        labels: ["Rampas (76%)", "Adaptaciones generales (19%)", "Otros (5%)"],
+        datasets: [{
+          label: "Necesidades estructurales",
+          data: [76, 19, 5],
+          backgroundColor: ["#4e79a7", "#f28e2b", "#e15759"]
+        }]
+      }
+    });
+
+    // Gráfica 4: Importancia para la sociedad
+    new Chart(document.getElementById("graficaImportancia"), {
+      type: "doughnut",
+      data: {
+        labels: ["Muy importante (68%)", "Poco informada (17%)", "Debe haber más difusión (15%)"],
+        datasets: [{
+          data: [68, 17, 15],
+          backgroundColor: ["#76b7b2", "#f28e2b", "#e15759"]
+        }]
+      }
+    });
+
+    // Gráfica 5: Confianza en la institución
+    new Chart(document.getElementById("graficaConfianza"), {
+      type: "pie",
+      data: {
+        labels: [
+          "Mostrar resultados públicos (55%)",
+          "Visitas presenciales (25%)",
+          "Personal capacitado (20%)"
+        ],
+        datasets: [{
+          data: [55, 25, 20],
+          backgroundColor: ["#59a14f", "#4e79a7", "#f28e2b"]
+        }]
+      }
+    });
+
+  </script>
+
+</body>
+</html>
+
+
+            </div>
+
+            <h3>Propuestas</h3>
+
+<div style="margin-top: 10px;">
+  <p>A partir de los resultados de la investigación, se plantean las siguientes propuestas concretas para mejorar la calidad de vida de los adolescentes en la Casa Hogar de Chetumal:</p>
+
+  <h4>1. Bienestar emocional como prioridad</h4>
+  <ul>
+    <li>Terapias psicológicas constantes y accesibles, con profesionales capacitados en trabajo con adolescentes en situación de vulnerabilidad.</li>
+    <li>Espacios seguros de expresión emocional, donde los jóvenes puedan hablar, crear y sanar a través del arte, la escritura o la música.</li>
+    <li>Capacitación continua al personal, para que sepan cómo apoyar emocionalmente y detectar señales de alerta a tiempo.</li>
+  </ul>
+
+  <h4>2. Construcción de vínculos con la comunidad</h4>
+  <ul>
+    <li>Talleres comunitarios e intercambios culturales que acerquen a los adolescentes con personas fuera de la institución.</li>
+    <li>Programas de voluntariado y mentoría, en los que adultos responsables acompañen procesos de vida y aspiraciones personales.</li>
+    <li>Eventos recreativos abiertos al público, para mostrar talentos, logros y romper prejuicios sobre la Casa Hogar.</li>
+  </ul>
+
+  <h4>3. Preparación real para el futuro</h4>
+  <ul>
+    <li>Refuerzo académico personalizado, con acompañamiento en tareas, comprensión lectora, matemáticas y habilidades digitales.</li>
+    <li>Talleres prácticos de autonomía, como cocina, primeros auxilios, manejo de dinero, cuidado personal y derechos ciudadanos.</li>
+    <li>Alianzas con empresas locales y escuelas que faciliten becas, prácticas profesionales y oportunidades laborales.</li>
+  </ul>
+
+  <p><strong>Estas propuestas surgen directamente de lo que la comunidad observa y espera. Aplicarlas puede marcar una diferencia real en la vida de los jóvenes que habitan la Casa Hogar.</strong></p>
+</div>
+</body>
+</html>
